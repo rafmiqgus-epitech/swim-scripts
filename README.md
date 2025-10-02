@@ -10,11 +10,14 @@
 ```sh
 cd /home/<user>/Epitech/Piscine
 ```
-2. Clone le contenu de ce repo directement dans ce dossier (sans créer de sous-dossier codepool):
+
+2. Clone le contenu de ce repo directement dans ce dossier :
 ```sh
-git clone git@github.com:rafmiqgus-epitech/swim-scripts.git . 
+git clone git@github.com:rafmiqgus-epitech/swim-scripts.git 
 ```
-⚠️ Le . à la fin permet de mettre le contenu directement dans le dossier courant.
+```sh 
+git clone https://github.com/rafmiqgus-epitech/swim-scripts.git
+```
 
 3. Vérifie que les scripts sont bien présents :
 ```sh 
@@ -29,6 +32,7 @@ Avant d’utiliser les scripts, assure-toi de définir la variable POOL_DIR dans
 
 
 ## 🚀 Utilisation
+
 1. Alias pratiques
 
 Pour lancer les scripts depuis n’importe où, ajoute des alias à ton shell.
@@ -43,7 +47,7 @@ alias epi-check="$HOME/Epitech/Piscine/check.sh"
 source ~/.bashrc
 ```
 
-Exemples
+Exemples :
 
 👉 Cloner un repo Piscine avec epi-clone
 ```sh 
