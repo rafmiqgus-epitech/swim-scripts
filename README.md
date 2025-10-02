@@ -6,27 +6,29 @@
 
 ## 📥 Installation
 
-1. Place-toi dans ton dossier de Piscine (là où tu pulls tous tes `dayXX`) :  
+1. Place-toi dans ton dossier de Piscine (là où tu pulls tous tes `dayXX`), par exemple :  
 ```sh
 cd /home/<user>/Epitech/Piscine
 ```
-Clone le contenu de ce repo directement dans ce dossier (sans créer de sous-dossier codepool) :
+2. Clone le contenu de ce repo directement dans ce dossier (sans créer de sous-dossier codepool):
 ```sh
-git clone git@github.com:<ton-user>/codepool.git . 
+git clone git@github.com:rafmiqgus-epitech/swim-scripts.git . 
 ```
 ⚠️ Le . à la fin permet de mettre le contenu directement dans le dossier courant.
 
-Vérifie que les scripts sont bien présents :
+3. Vérifie que les scripts sont bien présents :
 ```sh 
 ls
 ```
 Tu devrais voir epi-clone.sh, check.sh, etc.
 
-⚠️ Configuration
+
+## ⚠️ Configuration
 
 Avant d’utiliser les scripts, assure-toi de définir la variable POOL_DIR dans epi-clone.sh.
 
-🚀 Utilisation
+
+## 🚀 Utilisation
 1. Alias pratiques
 
 Pour lancer les scripts depuis n’importe où, ajoute des alias à ton shell.
@@ -36,12 +38,12 @@ alias epi-clone="$HOME/Epitech/Piscine/epi-clone.sh"
 alias epi-check="$HOME/Epitech/Piscine/check.sh"
 ```
 
-Recharge ton shell :
+2. Recharge ton shell :
 ```sh 
 source ~/.bashrc
 ```
 
-2. Exemples
+Exemples
 
 👉 Cloner un repo Piscine avec epi-clone
 ```sh 
