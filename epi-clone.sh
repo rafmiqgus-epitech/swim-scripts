@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-POOL_DIR="$HOME/Epitech/Piscine" # METTEZ LE DOSSIER DE VOTRE PISCINE ICI (format : /home/<user>/... ou ~/...)
+POOL_DIR="" # METTEZ LE DOSSIER DE VOTRE PISCINE ICI (format : /home/<user>/... ou ~/...)
 
 
 if [ -z "$POOL_DIR" ]; then
