@@ -38,8 +38,8 @@ Avant d’utiliser les scripts, assure-toi de définir la variable POOL_DIR dans
 Pour lancer les scripts depuis n’importe où, ajoute des alias à ton shell.
 Par exemple dans ~/.bashrc ou ~/.zshrc :
 ```sh 
-alias epi-clone="$HOME/Epitech/Piscine/epi-clone.sh"
-alias epi-check="$HOME/Epitech/Piscine/check.sh"
+alias epi-clone="$HOME/Epitech/Piscine/swim-scripts/epi-clone.sh"
+alias epi-check="$HOME/Epitech/Piscine/swim-scripts/check.sh"
 ```
 
 2. Recharge ton shell :
