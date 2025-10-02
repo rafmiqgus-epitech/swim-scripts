@@ -1,4 +1,4 @@
-"# 🏊‍♂️ swim-scripts
+🏊‍♂️ swim-scripts
 
 **swim-script** est une collection d’outils et de scripts shell destinés à faciliter la vie des étudiants Epitech (et plus particulièrement pendant la Piscine).  
 
@@ -32,8 +32,8 @@ Avant d’utiliser les scripts, assure-toi de définir la variable POOL_DIR dans
 Pour lancer les scripts depuis n’importe où, ajoute des alias à ton shell.
 Par exemple dans ~/.bashrc ou ~/.zshrc :
 ```sh 
-alias epi-clone=\"$POOL_DIR/epi-clone.sh\"
-alias check=\"$POOL_DIR/check.sh\"
+alias epi-clone="$HOME/Epitech/Piscine/epi-clone.sh"
+alias epi-check="$HOME/Epitech/Piscine/check.sh"
 ```
 
 Recharge ton shell :
@@ -50,5 +50,5 @@ epi-clone git@github.com:EpitechPGE1-2025/G-CPE-100-MPL-1-1-cpoolday09-20.git
 
 👉 Lancer check.sh depuis n’importe où
 ```sh 
-check
+epi-check
 ```
