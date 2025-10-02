@@ -49,5 +49,6 @@ epi-clone git@github.com:EpitechPGE1-2025/G-CPE-100-MPL-1-1-cpoolday09-20.git
 ```
 
 👉 Lancer check.sh depuis n’importe où
-
+```sh 
 check
+```
